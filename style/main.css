@@ -1,0 +1,105 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+    --fonte: #AAAAAA;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family: Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    font-size: 19px;
+    text-decoration: none;
+    color: var(--fonte);
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 21px;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)100%), url('/img/capa2-vikings.png');
+    height: 570px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    max-width: 400px;
+}
+
+.filme-principal .titulo {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: #141414;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 7px;
+}
+
+.carrosel-filmes {
+    margin-top: 7px;
+}
